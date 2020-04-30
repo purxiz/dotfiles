@@ -38,6 +38,7 @@ set $refresh_i3status killall -SIGUSR1 i3status
 #bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 bindsym $mod+Prior exec --no-startup-id amixer -D pulse sset Master 5%+
 bindsym $mod+Next exec --no-startup-id amixer -D pulse sset Master 5%-
+bindsym $mod+m exec --no-startup-id amixer -D pulse set Master 1+ toggle
 
 
 # Use Mouse+$mod to drag floating windows to their wanted position
