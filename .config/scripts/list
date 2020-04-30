@@ -7,3 +7,4 @@ kitty ~/.config/kitty/kitty.conf
 kitty-nord ~/.config/kitty/nord.conf
 rofi ~/.config/rofi/config.rasi
 rofi-theme ~/.config/rofi/themes/sorta-nord.rasi
+i3lock ~/.config/scripts/lock.sh

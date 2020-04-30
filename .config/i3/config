@@ -214,3 +214,6 @@ exec --no-startup-id "nitrogen --restore"
 
 # start compton for transparent terminals
 exec --no-startup-id "compton"
+
+# fancy lock
+bindsym $mod+End exec "~/.config/scripts/lock.sh" 

@@ -5,6 +5,6 @@ function edit_config
 	echo "$program"
 	if test -n "$program"
 		set file (cat "$HOME"/.config/scripts/list | grep -w "$program" | cut -d' ' -f2 | sed "s|~|$HOME|g")
-		x-terminal-emulator -- vim "$file"
+		x-terminal-emulator -- kak "$file"
 	end
 end
