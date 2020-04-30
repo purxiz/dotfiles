@@ -1,1 +1,13 @@
+# set tab width to 4 for prettier code.
 set global tabstop 4
+
+# change buffer-delete (bd) to match up with bn and bp, for the sake of my brain
+alias global bd delete-buffer
+
+unmap global normal c
+map global normal c <a-i>
+
+unmap global normal r
+map global normal r c
+
+map global normal <s-d> <a-d>
