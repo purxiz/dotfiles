@@ -217,4 +217,8 @@ exec --no-startup-id "nitrogen --restore"
 exec --no-startup-id "compton"
 
 # fancy lock
-bindsym $mod+End exec "~/.config/scripts/lock.sh" 
+bindsym $mod+End exec "~/.config/scripts/lock.sh"
+
+# don't go to sleep
+exec --no-startup-id "xset s off"
+exec --no-startup-id "xset -dpms"

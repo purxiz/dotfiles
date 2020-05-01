@@ -6,8 +6,8 @@ function config
 	/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $argv
 end
 
-# make sure vim is used for general editor stuff
-set -x VISUAL vim
+# make sure kak is used for general editor stuff
+set -x VISUAL kak
 set -x EDITOR $VISUAL
 
 # happy greetings if fortune is installed
