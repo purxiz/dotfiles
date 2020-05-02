@@ -198,7 +198,7 @@ bar {
 
 
 # Screenshot
-bindsym $mod+p exec --no-startup-id "maim -s | xclip -selection c -t image/png -i"
+bindsym --release $mod+p exec "scrot '/dev/stdout' -sfo | xclip -selection c -t image/png -i"
 
 # Config edit
 bindsym $mod+z exec "fish -c edit_config"
