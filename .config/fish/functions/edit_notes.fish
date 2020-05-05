@@ -6,3 +6,9 @@ function edit_notes
 		x-terminal-emulator -- kak "$NOTES_DIR/$NOTE"
 	end
 end
+
+#if test -n (kak -l | grep "notes")
+#	x-terminal-emulator -- kak -s "notes" "$NOTES_DIR/$NOTE"
+#else
+#	x-terminal-emulator -- kak -c "notes" "$NOTES_DIR/$NOTE"
+#end
