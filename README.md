@@ -6,7 +6,7 @@ My setup is made on Ubuntu 20.04, though I imagine it will work with most distro
 - kitty terminal emulator
 - fish shell
 	- fisher plugin manager
-- vim
+- kakoune
 - rofi
 	- rofi-calc
 - compton
@@ -14,3 +14,5 @@ My setup is made on Ubuntu 20.04, though I imagine it will work with most distro
 - i3bar
 - i3status
 - i3lock
+- scrot
+- xclip

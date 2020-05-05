@@ -17,3 +17,10 @@ function fish_greeting
 		fortune
 	end
 end
+
+# Abbreviations
+if status --is-interactive #only run in interactive shells
+    abbr --add --global dif 'kitty +kitten diff'
+    abbr --add --global gd 'git difftool --no-symlinks --dir-diff'
+    abbr --add --global configdiff 'config difftool --no-symlinks --dir-diff'
+end
