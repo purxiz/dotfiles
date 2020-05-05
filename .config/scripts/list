@@ -11,3 +11,5 @@ i3lock ~/.config/scripts/lock.sh
 kakrc ~/.config/kak/kakrc
 ssh ~/.ssh/config
 notes ~/notes/notes.md
+edit_files ~/.config/fish/functions/edit_file.fish
+edit_notes ~/.config/fish/functions/edit_notes.fish
