@@ -1,5 +1,6 @@
 # set tab width to 4 for prettier code.
 set global tabstop 4
+set global indentwidth 0
 
 # change buffer-delete (bd) to match up with bn and bp, for the sake of my brain
 alias global bd delete-buffer

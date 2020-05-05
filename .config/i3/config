@@ -222,3 +222,6 @@ bindsym $mod+End exec "~/.config/scripts/lock.sh"
 # don't go to sleep
 exec --no-startup-id "xset s off"
 exec --no-startup-id "xset -dpms"
+
+# open notes rofi
+bindsym $mod+n exec "fish -c edit_notes"
