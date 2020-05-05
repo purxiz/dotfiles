@@ -10,3 +10,4 @@ rofi-theme ~/.config/rofi/themes/sorta-nord.rasi
 i3lock ~/.config/scripts/lock.sh
 kakrc ~/.config/kak/kakrc
 ssh ~/.ssh/config
+notes ~/notes/notes.md

@@ -201,7 +201,7 @@ bar {
 bindsym --release $mod+p exec "scrot '/dev/stdout' -sfo | xclip -selection c -t image/png -i"
 
 # Config edit
-bindsym $mod+z exec "fish -c edit_config"
+bindsym $mod+z exec "fish -c edit_file"
 
 # Disable Title bars for GAPS
 for_window [class=".*"] border pixel 2

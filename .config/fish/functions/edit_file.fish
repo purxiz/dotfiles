@@ -1,6 +1,6 @@
 #!/usr/bin/env fish
 
-function edit_config
+function edit_file
 	set program (cat "$HOME"/.config/scripts/list | cut -d' ' -f1 | rofi -dmenu -p "Config:")
 	echo "$program"
 	if test -n "$program"
