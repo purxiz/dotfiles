@@ -4,8 +4,8 @@ function edit_notes
 	if test (echo $NOTE | cut -d' ' -f1) = 'find'
 		set FILE (grep -r (echo $NOTE | cut -d' ' -f1 --complement) $NOTES_DIR | sed -e "s|$NOTES_DIR/||g" | rofi -dmenu -p "Notes")
 		set NOTE (echo "$FILE" | cut -d':' -f1 | sed -e "s|$NOTES_DIR||g")
-		x-terminal-emulator -- kak "$NOTES_DIR/$NOTE"
-	else if test -n "$NOTE"
+	end
+	if test -n "$NOTE"
 		mkdir -p (dirname $NOTES_DIR/$NOTE)
 		x-terminal-emulator -- kak "$NOTES_DIR/$NOTE"
 	end
