@@ -12,3 +12,4 @@ kakrc ~/.config/kak/kakrc
 ssh ~/.ssh/config
 edit_files ~/.config/fish/functions/edit_file.fish
 edit_notes ~/.config/fish/functions/edit_notes.fish
+README ~/README.md

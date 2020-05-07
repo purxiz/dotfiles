@@ -7,12 +7,12 @@ function edit_notes
 	end
 	if test -n "$NOTE"
 		mkdir -p (dirname $NOTES_DIR/$NOTE)
-		x-terminal-emulator -- kak "$NOTES_DIR/$NOTE"
+		x-terminal-emulator -- $EDITOR "$NOTES_DIR/$NOTE"
 	end
 end
 
-#if test -n (kak -l | grep "notes")
-#	x-terminal-emulator -- kak -s "notes" "$NOTES_DIR/$NOTE"
+#if test -n ($EDITOR -l | grep "notes")
+#	x-terminal-emulator -- $EDITOR -s "notes" "$NOTES_DIR/$NOTE"
 #else
-#	x-terminal-emulator -- kak -c "notes" "$NOTES_DIR/$NOTE"
+#	x-terminal-emulator -- $EDITOR -c "notes" "$NOTES_DIR/$NOTE"
 #end

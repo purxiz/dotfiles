@@ -16,3 +16,4 @@ My setup is made on Ubuntu 20.04, though I imagine it will work with most distro
 - i3lock
 - scrot
 - xclip
+- ffmpeg (required for pixelated lock screen)
