@@ -17,3 +17,5 @@ My setup is made on Ubuntu 20.04, though I imagine it will work with most distro
 - scrot
 - xclip
 - ffmpeg (required for pixelated lock screen)
+
+For most distros, I recommend removing nm-applet.desktop from /etc/xdg/autostart/ and using nmtui to set network options, for a cleaner bar

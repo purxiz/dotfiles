@@ -194,6 +194,7 @@ bar {
 		active_workspace	#D8DEE9	#535353 #DEDEDE
 		urgent_workspace	#D8DEE9	#B48EAD	#ECEFF4
 	}
+	tray_output primary
 }
 
 
