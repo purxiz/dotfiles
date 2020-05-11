@@ -13,3 +13,4 @@ ssh ~/.ssh/config
 edit_files ~/.config/fish/functions/edit_file.fish
 edit_notes ~/.config/fish/functions/edit_notes.fish
 README ~/README.md
+ranger ~/.config/ranger/rc.conf
