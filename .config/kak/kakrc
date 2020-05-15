@@ -12,3 +12,11 @@ unmap global normal r
 map global normal r c
 
 map global normal <s-d> <a-d>
+
+#eventual command for ranger file chooser... This should probably just open ranger for file operations.
+#The built in edit primitive in kakoune is actually super reasonable...
+#def -docstring "Open a ranger session that will allow you to select a file
+#for editing in kakoune
+#" rangerfilechooser %{
+#	eval terminal 'ranger; echo hello'
+#}
