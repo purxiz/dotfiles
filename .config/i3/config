@@ -226,3 +226,6 @@ exec --no-startup-id "xset -dpms"
 
 # open notes rofi
 bindsym $mod+n exec "fish -c edit_notes"
+
+# open pass menu rofi
+bindsym $mod+i exec $HOME/.config/scripts/pass.sh --type

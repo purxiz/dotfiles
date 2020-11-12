@@ -13,6 +13,12 @@ map global normal r c
 
 map global normal <s-d> <a-d>
 
+map global user y '<a-|>xsel -i -b<ret>'
+
+#highlight matching brackets
+add-highlighter global/ show-matching
+set-face global MatchingChar rgb:8FBCBB,rgb:BF616A
+
 #eventual command for ranger file chooser... This should probably just open ranger for file operations.
 #The built in edit primitive in kakoune is actually super reasonable...
 #def -docstring "Open a ranger session that will allow you to select a file
